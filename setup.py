@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = '0.2'
 
 setup(name='collective.recipe.symlink',
       version=version,
@@ -16,7 +16,7 @@ setup(name='collective.recipe.symlink',
       keywords='',
       author='Matous Hora',
       author_email='matous.hora@dms4u.cz',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/mhora/collective.recipe.symlink',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.recipe'],
